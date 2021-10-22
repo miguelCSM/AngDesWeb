@@ -1,8 +1,11 @@
 <h1>{{ nombre }}</h1>
 
 <dl>
+
   <td>Nombre:</td>
   <dd>{{ nombre }}</dd>
+
+  <!--One way Bidding -> Cambio unidireccional-->
 
   <td>Puntos de ataque:</td>
   <dd>{{ puntosAtaque }}</dd>
@@ -14,4 +17,5 @@
   <dd>{{ nombreCapitalizado }}</dd>
   <button (click)="cambiarNombre()">Cambiar Nombre</button>
   <button (click)="cambiarAtaque()">Cambiar Ataque</button>
+  
 </dl>

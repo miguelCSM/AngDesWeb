@@ -4,10 +4,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { AppContador } from './contador/contador.component';
 import { PokemonComponent } from './pokemones/pokemon/pokemon.component';
+import { ListadoComponent } from './pokemones/listado/listado.component';
 
 @NgModule({
   declarations: [
-    AppComponent, AppContador, PokemonComponent
+    AppComponent, AppContador, PokemonComponent, ListadoComponent
   ],
   imports: [
     BrowserModule
